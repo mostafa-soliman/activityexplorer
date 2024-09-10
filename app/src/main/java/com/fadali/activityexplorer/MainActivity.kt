@@ -1,5 +1,8 @@
 package com.fadali.activityexplorer
 
+import com.fadali.activityexplorer.ui.theme.ActivityExplorerTheme
+
+
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -26,7 +29,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.boniantech.activityexplorer.ui.theme.ActivityExplorerTheme
+import com.fadali.activityexplorer.ui.theme.ActivityExplorerTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
